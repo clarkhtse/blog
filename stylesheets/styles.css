@@ -1,0 +1,932 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+/* line 16, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+body {
+  min-width: 960px; }
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+/* line 24, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12,
+.container_16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px; }
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 48, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/* line 69, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13,
+.push_14, .pull_14,
+.push_15, .pull_15 {
+  position: relative; }
+
+/* line 74, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_3,
+.container_16 .grid_4 {
+  width: 220px; }
+
+/* line 79, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_6,
+.container_16 .grid_8 {
+  width: 460px; }
+
+/* line 84, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_9,
+.container_16 .grid_12 {
+  width: 700px; }
+
+/* line 89, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_12,
+.container_16 .grid_16 {
+  width: 940px; }
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+/* line 96, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.alpha {
+  margin-left: 0; }
+
+/* line 100, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.omega {
+  margin-right: 0; }
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 107, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_1 {
+  width: 60px; }
+
+/* line 111, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_2 {
+  width: 140px; }
+
+/* line 115, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_4 {
+  width: 300px; }
+
+/* line 119, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_5 {
+  width: 380px; }
+
+/* line 123, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_7 {
+  width: 540px; }
+
+/* line 127, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_8 {
+  width: 620px; }
+
+/* line 131, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_10 {
+  width: 780px; }
+
+/* line 135, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .grid_11 {
+  width: 860px; }
+
+/* `Grid >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 142, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_1 {
+  width: 40px; }
+
+/* line 146, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_2 {
+  width: 100px; }
+
+/* line 150, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_3 {
+  width: 160px; }
+
+/* line 154, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_5 {
+  width: 280px; }
+
+/* line 158, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_6 {
+  width: 340px; }
+
+/* line 162, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_7 {
+  width: 400px; }
+
+/* line 166, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_9 {
+  width: 520px; }
+
+/* line 170, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_10 {
+  width: 580px; }
+
+/* line 174, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_11 {
+  width: 640px; }
+
+/* line 178, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_13 {
+  width: 760px; }
+
+/* line 182, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_14 {
+  width: 820px; }
+
+/* line 186, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .grid_15 {
+  width: 880px; }
+
+/* `Prefix Extra Space >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 194, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_3,
+.container_16 .prefix_4 {
+  padding-left: 240px; }
+
+/* line 199, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_6,
+.container_16 .prefix_8 {
+  padding-left: 480px; }
+
+/* line 204, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_9,
+.container_16 .prefix_12 {
+  padding-left: 720px; }
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 211, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_1 {
+  padding-left: 80px; }
+
+/* line 215, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_2 {
+  padding-left: 160px; }
+
+/* line 219, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_4 {
+  padding-left: 320px; }
+
+/* line 223, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_5 {
+  padding-left: 400px; }
+
+/* line 227, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_7 {
+  padding-left: 560px; }
+
+/* line 231, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_8 {
+  padding-left: 640px; }
+
+/* line 235, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_10 {
+  padding-left: 800px; }
+
+/* line 239, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .prefix_11 {
+  padding-left: 880px; }
+
+/* `Prefix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 246, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_1 {
+  padding-left: 60px; }
+
+/* line 250, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_2 {
+  padding-left: 120px; }
+
+/* line 254, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_3 {
+  padding-left: 180px; }
+
+/* line 258, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_5 {
+  padding-left: 300px; }
+
+/* line 262, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_6 {
+  padding-left: 360px; }
+
+/* line 266, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_7 {
+  padding-left: 420px; }
+
+/* line 270, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_9 {
+  padding-left: 540px; }
+
+/* line 274, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_10 {
+  padding-left: 600px; }
+
+/* line 278, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_11 {
+  padding-left: 660px; }
+
+/* line 282, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_13 {
+  padding-left: 780px; }
+
+/* line 286, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_14 {
+  padding-left: 840px; }
+
+/* line 290, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .prefix_15 {
+  padding-left: 900px; }
+
+/* `Suffix Extra Space >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 298, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_3,
+.container_16 .suffix_4 {
+  padding-right: 240px; }
+
+/* line 303, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_6,
+.container_16 .suffix_8 {
+  padding-right: 480px; }
+
+/* line 308, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_9,
+.container_16 .suffix_12 {
+  padding-right: 720px; }
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 315, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_1 {
+  padding-right: 80px; }
+
+/* line 319, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_2 {
+  padding-right: 160px; }
+
+/* line 323, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_4 {
+  padding-right: 320px; }
+
+/* line 327, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_5 {
+  padding-right: 400px; }
+
+/* line 331, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_7 {
+  padding-right: 560px; }
+
+/* line 335, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_8 {
+  padding-right: 640px; }
+
+/* line 339, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_10 {
+  padding-right: 800px; }
+
+/* line 343, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .suffix_11 {
+  padding-right: 880px; }
+
+/* `Suffix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 350, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_1 {
+  padding-right: 60px; }
+
+/* line 354, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_2 {
+  padding-right: 120px; }
+
+/* line 358, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_3 {
+  padding-right: 180px; }
+
+/* line 362, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_5 {
+  padding-right: 300px; }
+
+/* line 366, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_6 {
+  padding-right: 360px; }
+
+/* line 370, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_7 {
+  padding-right: 420px; }
+
+/* line 374, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_9 {
+  padding-right: 540px; }
+
+/* line 378, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_10 {
+  padding-right: 600px; }
+
+/* line 382, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_11 {
+  padding-right: 660px; }
+
+/* line 386, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_13 {
+  padding-right: 780px; }
+
+/* line 390, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_14 {
+  padding-right: 840px; }
+
+/* line 394, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .suffix_15 {
+  padding-right: 900px; }
+
+/* `Push Space >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 402, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_3,
+.container_16 .push_4 {
+  left: 240px; }
+
+/* line 407, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_6,
+.container_16 .push_8 {
+  left: 480px; }
+
+/* line 412, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_9,
+.container_16 .push_12 {
+  left: 720px; }
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 419, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_1 {
+  left: 80px; }
+
+/* line 423, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_2 {
+  left: 160px; }
+
+/* line 427, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_4 {
+  left: 320px; }
+
+/* line 431, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_5 {
+  left: 400px; }
+
+/* line 435, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_7 {
+  left: 560px; }
+
+/* line 439, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_8 {
+  left: 640px; }
+
+/* line 443, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_10 {
+  left: 800px; }
+
+/* line 447, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .push_11 {
+  left: 880px; }
+
+/* `Push Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 454, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_1 {
+  left: 60px; }
+
+/* line 458, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_2 {
+  left: 120px; }
+
+/* line 462, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_3 {
+  left: 180px; }
+
+/* line 466, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_5 {
+  left: 300px; }
+
+/* line 470, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_6 {
+  left: 360px; }
+
+/* line 474, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_7 {
+  left: 420px; }
+
+/* line 478, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_9 {
+  left: 540px; }
+
+/* line 482, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_10 {
+  left: 600px; }
+
+/* line 486, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_11 {
+  left: 660px; }
+
+/* line 490, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_13 {
+  left: 780px; }
+
+/* line 494, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_14 {
+  left: 840px; }
+
+/* line 498, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .push_15 {
+  left: 900px; }
+
+/* `Pull Space >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 506, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_3,
+.container_16 .pull_4 {
+  left: -240px; }
+
+/* line 511, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_6,
+.container_16 .pull_8 {
+  left: -480px; }
+
+/* line 516, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_9,
+.container_16 .pull_12 {
+  left: -720px; }
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 523, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_1 {
+  left: -80px; }
+
+/* line 527, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_2 {
+  left: -160px; }
+
+/* line 531, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_4 {
+  left: -320px; }
+
+/* line 535, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_5 {
+  left: -400px; }
+
+/* line 539, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_7 {
+  left: -560px; }
+
+/* line 543, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_8 {
+  left: -640px; }
+
+/* line 547, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_10 {
+  left: -800px; }
+
+/* line 551, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_12 .pull_11 {
+  left: -880px; }
+
+/* `Pull Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 558, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_1 {
+  left: -60px; }
+
+/* line 562, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_2 {
+  left: -120px; }
+
+/* line 566, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_3 {
+  left: -180px; }
+
+/* line 570, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_5 {
+  left: -300px; }
+
+/* line 574, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_6 {
+  left: -360px; }
+
+/* line 578, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_7 {
+  left: -420px; }
+
+/* line 582, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_9 {
+  left: -540px; }
+
+/* line 586, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_10 {
+  left: -600px; }
+
+/* line 590, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_11 {
+  left: -660px; }
+
+/* line 594, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_13 {
+  left: -780px; }
+
+/* line 598, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_14 {
+  left: -840px; }
+
+/* line 602, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.container_16 .pull_15 {
+  left: -900px; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* line 611, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+/* line 627, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after,
+.container_16:before,
+.container_16:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0; }
+
+/* line 640, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.clearfix:after,
+.container_12:after,
+.container_16:after {
+  clear: both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+/* line 651, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_grid.scss */
+.clearfix,
+.container_12,
+.container_16 {
+  zoom: 1; }
+
+/* line 1, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_placeholders.sass */
+legend, button::-moz-focus-inner,
+input::-moz-focus-inner, ul, li, body, figure, button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+/* line 4, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_placeholders.sass */
+legend, button::-moz-focus-inner,
+input::-moz-focus-inner, ul, li, input[type="checkbox"],
+input[type="radio"] {
+  padding: 0; }
+
+/* line 7, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_placeholders.sass */
+audio:not([controls]), [hidden] {
+  display: none; }
+
+/* line 1, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_typography.sass */
+.font-body, body {
+  font-family: "Oxygen", sans-serif; }
+
+/* line 4, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_typography.sass */
+.font-headers, h1, h2, h3, h4 {
+  font-family: "Bitter", serif;
+  font-weight: normal; }
+
+/* line 1, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 15, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/* line 20, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+audio:not([controls]) {
+  height: 0; }
+
+/* line 27, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 35, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+a:focus {
+  outline: thin dotted; }
+
+/* line 38, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 42, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+h1 {
+  font-size: 32px; }
+
+/* line 45, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 48, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 52, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+dfn {
+  font-style: italic; }
+
+/* line 55, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+mark {
+  background: yellow;
+  color: black; }
+
+/* line 59, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 16px; }
+
+/* line 66, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+pre {
+  white-space: pre-wrap; }
+
+/* line 69, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 72, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+small {
+  font-size: 80%; }
+
+/* line 75, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 82, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+sup {
+  top: -0.5em; }
+
+/* line 85, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 88, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+img {
+  border: 0; }
+
+/* line 91, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 97, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 105, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%; }
+
+/* line 113, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+button,
+input {
+  line-height: normal; }
+
+/* line 117, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 124, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 128, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; }
+
+/* line 133, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 139, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 147, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 151, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+body {
+  background-image: url("../images/dust.png");
+  background-repeat: repeat; }
+
+/* line 6, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+p {
+  font-size: 24px;
+  line-height: 36px; }
+  /* line 9, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+  p.tight {
+    margin: 0; }
+
+/* line 15, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+h1 {
+  font-size: 48px;
+  color: #b80000;
+  margin: 25px 0 25px 0; }
+
+/* line 20, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+h2 {
+  font-size: 32px;
+  color: #b80000;
+  margin: 50px 0 25px 0; }
+  /* line 24, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+  h2.tight {
+    margin: 5px 0 5px 0; }
+
+/* line 28, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+h3 {
+  font-size: 25.6px;
+  color: #0a4380;
+  margin-bottom: 0px; }
+
+/* line 39, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+a {
+  color: #1560b0;
+  text-decoration: none; }
+  /* line 42, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 45, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+footer {
+  font-size: 20px;
+  margin: 80px 0 30px 0; }
+
+/* line 50, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.center-text, .font-headers, h1, h2, h3, h4, footer, .intro, .image-group, .all-homework {
+  text-align: center; }
+
+/* line 53, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.git {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 27px; }
+
+/* line 58, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.spacer-top {
+  margin: 40px 0 0 0; }
+
+/* line 61, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.spacer-bottom {
+  margin: 0 0 40px 0; }
+
+/* line 64, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.intro {
+  margin: 0; }
+
+/* line 71, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.portrait-image {
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px; }
+
+/* line 75, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.this-week-image {
+  height: 200px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px; }
+
+/* line 79, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.logos {
+  height: 100px; }
+
+/* line 83, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.new {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px; }
+
+/* line 91, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.homework {
+  margin: 25px 0 0 0; }
+
+/* line 94, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.group:before, .group:after {
+  display: table;
+  content: ""; }
+
+/* line 98, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.group:after {
+  clear: both; }
+
+/* line 101, /Users/dankim/dropbox/web/github/lateplate.github.com/stylesheets/_main.sass */
+.group {
+  *zoom: 1; }
