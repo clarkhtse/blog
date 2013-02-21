@@ -3,7 +3,7 @@ auto:        true
 server:      true
 server_port: 4000
 baseurl:     /blog
-# url: http://localhost:4000
+url:         http://dankim.org/blog
 
 source:      .
 destination: ./_site
