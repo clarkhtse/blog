@@ -2,8 +2,8 @@ safe:        false
 auto:        true
 server:      true
 server_port: 4000
-baseurl:     /blog
-url:         http://dankim.org/blog
+baseurl:     blog
+url:         http://dankim.org
 
 source:      .
 destination: ./_site
