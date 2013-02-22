@@ -2,8 +2,6 @@
 layout: default
 title: Automating My Dev Environment With AppleScript
 ---
-# Automating My Dev Environment With AppleScript
-
 The [Starter League](http://starterleague.com) Winter 2013 quarter is in high gear, so I've been working on a number of projects simultaneously.
 
 This requires a lot of context switching. Manually navigating around became a big waste of time, so I automated a few repetitive actions:

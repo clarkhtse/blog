@@ -1,146 +1,171 @@
+/* line 1, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 body {
-  min-width: 760px; }
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: #fbfbeb; }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
+/* line 7, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
-audio,
-canvas,
-video {
+/* line 10, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+audio, canvas, video {
   display: inline-block; }
 
+/* line 13, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 audio:not([controls]) {
   height: 0; }
 
+/* line 16, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 html {
-  font-family: "Tinos", Georgia, serif;
+  font-family: "Merriweather", Georgia, serif;
   font-size: 24px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
+/* line 23, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 a:focus {
   outline: thin dotted; }
-
-a:active,
-a:hover {
+/* line 25, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+a:active, a:hover {
   outline: 0; }
-  
+
+/* line 28, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-b,
-strong {
+/* line 31, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+b, strong {
   font-weight: bold; }
 
+/* line 34, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 dfn {
   font-style: italic; }
 
+/* line 37, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 mark {
   background: yellow;
   color: black; }
 
-code,
-kbd,
-pre,
-samp {
+/* line 41, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 16px; }
 
+/* line 45, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 pre {
   white-space: pre-wrap; }
 
+/* line 48, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
+/* line 51, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 small {
   font-size: 80%; }
 
-sub,
-sup {
+/* line 54, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+sub {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
+/* line 60, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
   top: -0.5em; }
 
+/* line 67, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 sub {
   bottom: -0.25em; }
 
+/* line 70, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 img {
   border: 0; }
 
+/* line 73, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 p, ul, ol {
-  font-size: 24px;
-  line-height: 36px; }
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 5px;
+  color: #3d3938; }
 
-h1, h2, h3 {
-  font-family: "Trykker", Georgia, serif;
+/* line 79, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+.header, h1, h2, h3 {
+  font-family: "Lato", Georgia, serif;
   text-align: center;
-  color: #b80000;
-  margin: 25px 0 25px 0; 
-}
+  color: #fbfbeb;
+  margin: 0; }
 
+/* line 85, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h1 {
   font-size: 48px; }
 
+/* line 89, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h2 {
-  font-size: 36px; }
+  font-size: 32px; }
 
+/* line 93, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h3 {
-  font-size: 28px; }
+  font-size: 24px; }
 
+/* line 97, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 a {
   color: #1560b0;
   text-decoration: none; }
+  /* line 100, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
   a:hover {
     text-decoration: underline; }
 
-footer {
-  font-size: 20px;
-  margin: 40px 0 30px 0; 
-  text-align: center; }
-
+/* line 103, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 blockquote {
-  font-style: italic;
-}
+  font-style: italic; }
 
+/* line 106, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 li {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-.container {
-  margin: 0 auto; 
+/* line 109, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+footer {
+  margin: 50px 0; }
+
+/* line 112, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+.background-container-title {
+  margin: 0 auto;
+  width: 100%;
+  background: #ab3822;
+  padding: 40px 0;
+  color: #ab3822; }
+
+/* line 119, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+.container-content {
+  margin: 0 auto;
   width: 760px; }
 
+/* line 123, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 .post-list {
   list-style: none;
   padding: 0;
-  text-align: center;
-}
+  text-align: center; }
 
+/* line 128, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 .post-date {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-.group:before, .group:after {
-  display: table;
-  content: ""; }
-
-.group:after {
-  clear: both; }
-
+/* line 131, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 .group {
   *zoom: 1; }
+  /* line 132, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+  .group:before {
+    display: table;
+    content: ""; }
+  /* line 135, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+  .group:after {
+    display: table;
+    content: "";
+    clear: both; }

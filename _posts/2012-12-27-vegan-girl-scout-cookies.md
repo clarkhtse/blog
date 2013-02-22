@@ -3,8 +3,6 @@ layout: default
 title: Vegan Girl Scout Cookies?
 tags: veg
 ---
-# Vegan Girl Scout Cookies?
-
 Yes, they do exist. Kudos to [ABC Bakers](http://www.abcsmartcookies.com/america’s-best-cookies) for making a few of their cookies vegan. From their FAQ:
 
 >Yes, ABC has 4 vegan cookies in our product line – our Lemonades, Thanks-A-Lot, Thin Mints and Peanut Butter Patties are all vegan.

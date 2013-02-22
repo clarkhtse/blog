@@ -2,8 +2,6 @@
 layout: default
 title: Why People Dislike Comcast
 ---
-# Why People Dislike Comcast
-
 While I was on hold for 90 minutes yesterday with Comcast, I had time to muse on why people dislike Comcast so much.
 
 Beyond the obvious failure of keeping someone on hold for 90 minutes, a few things came to mind:

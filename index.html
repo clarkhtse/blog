@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
+title: Hi, my name is Dan Kim.
 ---
 
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
-    <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>: <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span> / <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>

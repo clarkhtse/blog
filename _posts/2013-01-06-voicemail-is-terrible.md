@@ -2,8 +2,6 @@
 layout: default
 title: Voicemail Is Terrible
 ---
-# Voicemail Is Terrible
-
 There are clear reasons why text messages and emails are so superior to voicemails. They give you control over the pace at which you consume the information.
 
 Before visual voicemail you had no idea who called or how long the message was. You couldn't infer if it was a detailed message or a quick "call me back".
