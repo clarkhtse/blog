@@ -1,171 +1,185 @@
-/* line 1, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background: #fbfbeb; }
+  background: #fbfbeb; 
+}
 
-/* line 7, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  display: block; }
+  display: block; 
+}
 
-/* line 10, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 audio, canvas, video {
-  display: inline-block; }
+  display: inline-block; 
+}
 
-/* line 13, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 audio:not([controls]) {
-  height: 0; }
+  height: 0; 
+}
 
-/* line 16, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 html {
   font-family: "Merriweather", Georgia, serif;
   font-size: 24px;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%; 
+}
 
-/* line 23, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 a:focus {
-  outline: thin dotted; }
-/* line 25, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+  outline: thin dotted; 
+}
 a:active, a:hover {
-  outline: 0; }
+  outline: 0; 
+}
 
-/* line 28, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted; 
+}
 
-/* line 31, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 b, strong {
-  font-weight: bold; }
+  font-weight: bold; 
+}
 
-/* line 34, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 dfn {
-  font-style: italic; }
+  font-style: italic; 
+}
 
-/* line 37, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 mark {
   background: yellow;
-  color: black; }
+  color: black; 
+}
 
-/* line 41, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 code, kbd, pre, samp {
   font-family: monospace, serif;
-  font-size: 16px; }
+  font-size: 16px; 
+}
 
-/* line 45, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 pre {
-  white-space: pre-wrap; }
+  white-space: pre-wrap; 
+}
 
-/* line 48, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  quotes: "\201C" "\201D" "\2018" "\2019"; 
+}
 
-/* line 51, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 small {
-  font-size: 80%; }
+  font-size: 80%; 
+}
 
-/* line 54, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 sub {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline; 
+}
 
-/* line 60, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
-  top: -0.5em; }
+  top: -0.5em; 
+}
 
-/* line 67, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em; 
+}
 
-/* line 70, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 img {
-  border: 0; }
+  border: 0; 
+}
 
-/* line 73, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 p, ul, ol {
   font-size: 20px;
   line-height: 35px;
-  margin-bottom: 5px;
-  color: #3d3938; }
+  margin: 5px 0;
+  color: #3d3938; 
+}
 
-/* line 79, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
-.header, h1, h2, h3 {
+h1, h2, h3, .header {
   font-family: "Lato", Georgia, serif;
   text-align: center;
   color: #fbfbeb;
-  margin: 0; }
+  margin: 0; 
+}
 
-/* line 85, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h1 {
-  font-size: 48px; }
+  font-size: 48px; 
+}
 
-/* line 89, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h2 {
-  font-size: 32px; }
+  font-size: 32px; 
+}
 
-/* line 93, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 h3 {
-  font-size: 24px; }
+  font-size: 24px; 
+}
 
-/* line 97, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 a {
   color: #1560b0;
-  text-decoration: none; }
-  /* line 100, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+  text-decoration: none; 
+}
+
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline; 
+  }
 
-/* line 103, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 blockquote {
-  font-style: italic; }
+  font-style: italic; 
+}
 
-/* line 106, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 li {
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+}
 
-/* line 109, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
-footer {
-  margin: 50px 0; }
-
-/* line 112, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
-.background-container-title {
+.title-background, .title, .content {
   margin: 0 auto;
+}
+
+.title, .content {
+  width: 670px;
+}
+
+.title-background {
   width: 100%;
-  background: #ab3822;
   padding: 40px 0;
-  color: #ab3822; }
+  background: #ab3822;
+  color: #ab3822; 
+}
 
-/* line 119, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
-.container-content {
-  margin: 0 auto;
-  width: 670px; }
+.content {
+  padding: 30px 0;
+}
 
-/* line 123, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+.content p {
+  padding: 10px 0;
+}
+
+.content ol, ul {
+  padding: 5px 20px;
+}
+
 .post-list {
   list-style: none;
   padding: 0;
-  text-align: center; }
+  text-align: center; 
+}
 
-/* line 128, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 .post-date {
-  font-weight: bold; }
+  font-weight: bold; 
+}
 
-/* line 131, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
 .group {
-  *zoom: 1; }
-  /* line 132, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+  *zoom: 1; 
+}
+
   .group:before {
     display: table;
-    content: ""; }
-  /* line 135, /Users/dankim/dropbox/web/github/blog/stylesheets/_main.sass */
+    content: ""; 
+  }
+
   .group:after {
     display: table;
     content: "";
-    clear: both; }
+    clear: both; 
+  }
