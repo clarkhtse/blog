@@ -96,6 +96,10 @@ p, ul, ol {
   color: #3d3938; 
 }
 
+ul, ol {
+  margin: 5px 0 5px 25px;
+}
+
 h1, h2, h3, .header {
   font-family: "Lato", Georgia, serif;
   text-align: center;
