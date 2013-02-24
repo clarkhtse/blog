@@ -1,8 +1,7 @@
-
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: .75em;
   background: #fbfbeb; 
 }
 
@@ -20,7 +19,6 @@ audio:not([controls]) {
 
 html {
   font-family: "Merriweather", Georgia, serif;
-  font-size: 24px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; 
 }
@@ -51,7 +49,7 @@ mark {
 
 code, kbd, pre, samp {
   font-family: monospace, serif;
-  font-size: 16px; 
+  font-size: .857em; 
 }
 
 pre {
@@ -60,10 +58,6 @@ pre {
 
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; 
-}
-
-small {
-  font-size: 80%; 
 }
 
 sub {
@@ -90,14 +84,14 @@ img {
 }
 
 p, ul, ol {
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 1.25em;
+  line-height: 1.875em;
   margin: 5px 0;
   color: #3d3938; 
 }
 
 ul, ol {
-  margin: 5px 0 5px 25px;
+  margin: 5px 0 5px 20px;
 }
 
 h1, h2, h3, .header {
@@ -108,15 +102,15 @@ h1, h2, h3, .header {
 }
 
 h1 {
-  font-size: 48px; 
+  font-size: 3em; 
 }
 
 h2 {
-  font-size: 32px; 
+  font-size: 2em; 
 }
 
 h3 {
-  font-size: 24px; 
+  font-size: 1.5em; 
 }
 
 a {
@@ -129,30 +123,17 @@ a {
   }
 
 blockquote {
+  margin: 0 20px;
   font-style: italic; 
+  font-size: .875em;
 }
 
 li {
   margin-bottom: 10px; 
 }
 
-.title-background, .title, .content {
-  margin: 0 auto;
-}
-
-.title, .content {
-  width: 670px;
-}
-
-.title-background {
-  width: 100%;
-  padding: 40px 0;
-  background: #ab3822;
-  color: #ab3822; 
-}
-
 .content {
-  padding: 30px 0;
+  padding: 30px 20px;
 }
 
 .content p {
@@ -161,6 +142,13 @@ li {
 
 .content ol, ul {
   padding: 5px 20px;
+}
+
+.title-background {
+  width: 100%;
+  padding: 40px 0;
+  background: #ab3822;
+  color: #fbfbeb;
 }
 
 .post-list {
@@ -173,17 +161,42 @@ li {
   font-weight: bold; 
 }
 
-.group {
-  *zoom: 1; 
+.title-background, .title, .content {
+  margin: 0 auto;
 }
 
-  .group:before {
-    display: table;
-    content: ""; 
+.title, .content {
+  width: 90%;
+}
+
+@media all and (min-width: 600px) {
+  body {
+    font-size: 1em;
   }
 
-  .group:after {
-    display: table;
-    content: "";
-    clear: both; 
+  blockquote {
+    margin: 0 40px;
   }
+
+  ul, ol {
+    margin: 5px 0 5px 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+
+  blockquote {
+    margin: 0 40px;
+  }
+
+  ul, ol {
+    margin: 5px 0 5px 40px;
+  }
+
+  .title, .content {
+    width: 670px;
+  }
+}
