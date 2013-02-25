@@ -161,14 +161,6 @@ li {
   font-weight: bold; 
 }
 
-.title-background, .title, .content {
-  margin: 0 auto;
-}
-
-.title, .content {
-  width: 90%;
-}
-
 @media all and (min-width: 600px) {
   body {
     font-size: 1em;
@@ -198,5 +190,9 @@ li {
 
   .title, .content {
     width: 670px;
+  }
+
+  .title-background, .title, .content {
+    margin: 0 auto;
   }
 }
