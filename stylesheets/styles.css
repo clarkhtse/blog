@@ -105,6 +105,10 @@ h1 {
   font-size: 3em; 
 }
 
+h1 a {
+    color: #fbfbeb;
+    text-decoration: underline; }
+
 h2 {
   font-size: 2em; 
 }
@@ -126,6 +130,11 @@ blockquote {
   margin: 0 20px;
   font-style: italic; 
   font-size: .875em;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 0 0; 
 }
 
 li {
