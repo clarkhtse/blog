@@ -1,7 +1,6 @@
 ---
 layout: nil
 ---
-<?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
@@ -18,7 +17,7 @@ layout: nil
         <title>{{ post.title }}</title>
         <link>http://dankim.org/blog{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
-        <author>Dan Kim</author>
+        <author>hello@dankim.org (Dan Kim)</author>
         <guid>http://dankim.org/blog{{ post.url }}</guid>
         <description>{{ post.content | xml_escape }}</description>
       </item>
