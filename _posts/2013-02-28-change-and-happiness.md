@@ -8,7 +8,7 @@ The reason is astoundingly simple. I recognized a part of my life that made me u
 
 Work is a huge part of our lives. It consumes (at least) 40% of our non-sleeping hours a week. That's a lot of time to spend being unhappy.
 
-So I made a drastic change. I quit a stable management job and decided to learn to code again. I wanted to build my ideas, not just talk about them. I wanted to surround myself with like-minded people.
+So I made a drastic change. I quit my job in management and decided to learn to code again. I wanted to build my ideas, not just talk about them. I wanted to surround myself with like-minded people.
 
 Being accepted to [The Starter League](http://starterleague.com) was where the positive change started for me. I've been encouraged and challenged since day one.
 
