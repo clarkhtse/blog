@@ -2,25 +2,25 @@
 layout: default
 title: Jailbreaking The 80/20 Rule	
 ---
-Apple plays by the 80/20 rule. They do what's right for 80% of the users, letting the 20% adjust.
+Apple plays by the 80/20 rule. They create products that do what's right for 80% of the users and let the other 20% adjust.
 
-But there's a lot of power in that last 20%. On a Mac you can fine tune every last bit. iOS focuses on security and stability, making it harder to tweak.
+But there's a lot of power in that last 20%. On a Mac you can fine tune every last bit. iOS' focus on security and stability make it harder to tweak.
 
-iOS isn't perfect, so I Jailbroke my iPhone 5 to see how I could improve the experience.
+iOS is great but not perfect. To see if I could improve the experience, I Jailbroke my iPhone 5.
 
-Jailbreaking often conjures up images of stealing software and illegal activities. Really it's just a way to tweak iOS to your liking. It can be abused just like anything else.
+Jailbreaking often conjures up images of stealing software and illegal hacking. Really it's just a way to tweak iOS to your liking. It can be abused just like anything else.
 
-So far I'm pretty happy with the changes. Here are a few things I was able to do.
+So far I'm happy with the changes. Here are a few things I was able to do.
 
 ## Minimize Annoyances
 - Hide Newsstand, Game Center, and Notes apps.
 - Remove folder animations, and close folders automatically.
-- Allow single tap clear of items in notification center.
+- Allow single tap clearing of notification center items.
 - Set the default browser to Chrome.
 - Set the default maps to Google Maps.
 
 ## Improve The UI
-- [Cleaner status bar and better spacing](http://cloud.dankim.org/NKhT) - no battery icon, carrier name, am/pm or app names. Smaller icons, smaller toolbars, five dock icons.
+- [Cleaner status bar and better spacing](http://cloud.dankim.org/NKhT) - no battery icon, carrier name, am/pm or app names. Smaller icons, smaller toolbars, and five dock icons.
 - [A richer app switcher](http://cloud.dankim.org/NMVM).
 
 ## Smart Shortcuts
