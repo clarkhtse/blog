@@ -97,12 +97,13 @@ ul, ol {
 h1, h2, h3, .header {
   font-family: "Lato", Georgia, serif;
   text-align: center;
-  color: #fbfbeb;
+  
   margin: 0; 
 }
 
 h1 {
   font-size: 3em; 
+  color: #fbfbeb;
 }
 
 h1 a {
@@ -111,10 +112,13 @@ h1 a {
 
 h2 {
   font-size: 2em; 
+  color: #3d3938; 
+  margin: 25px 0;
 }
 
 h3 {
   font-size: 1.5em; 
+  color: #3d3938; 
 }
 
 a {
