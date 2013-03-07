@@ -19,7 +19,7 @@ So far I'm happy with the changes. Here are a few things I was able to do.
 
 ## Improve The UI
 - [Cleaner status bar and better spacing](http://cloud.dankim.org/NKhT) - no battery icon, carrier name, am/pm or app names. Smaller icons, smaller toolbars, and five dock icons.
-- [A richer app switcher](http://cloud.dankim.org/NMVM).
+- [A much better app switcher](http://cloud.dankim.org/NMVM).
 
 ## Smart Shortcuts
 - Detect when I'm home and disable passcode lock.
