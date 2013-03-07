@@ -2,9 +2,9 @@
 layout: default
 title: Jailbreaking The 80/20 Rule	
 ---
-Apple plays by the 80/20 rule. Their products create great experiences for the 80% majority. The other 20% need to adjust.
+Apple's iOS is great but not perfect. This is partly because Apple lives by the 80/20 rule. This usually means prioritizing simplicity and elegance above all.
 
-iOS is great but not perfect. To see if I could improve the experience by tweaking that 20%, I Jailbroke my iPhone 5.
+I was curious to see if I could get iOS even closer to perfect (for me) by tweaking the other 20%. I Jailbroke my iPhone 5 to test the idea.
 
 Jailbreaking often conjures up images of stealing software and illegal hacking. Really it's just a way to tweak iOS to your liking. It can be abused just like anything else.
 
