@@ -14,7 +14,7 @@ This was simple to identify and correct. I was eating like a jerk. Entire pizzas
 **Solution**: stop eating like a jerk, and start eating a well-balanced diet.
 
 ## Create a system to manage and sustain weight loss.
-This was the far more challenging (and interesting) part. How would know if the changes to my diet were working? 
+This was the far more challenging (and interesting) part. How would I know if the changes to my diet were working? 
 
 I needed data every day. I created a system around this idea.
 
