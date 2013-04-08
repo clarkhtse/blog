@@ -2,7 +2,7 @@
 layout: default
 title: How Data Helped Me Lose 50 Pounds
 ---
-Last January I became the proud new papa of twin boys. But I was also pushing 185 pounds, a 26.9 BMI, and 25% body fat. It was time to make some changes.
+Last January I became the proud new papa of twin boys. But I was also pushing 182 pounds, a 26.9 BMI, and 25% body fat. It was time to make some changes.
 
 I had lost weight before, but my motivation this time was very different. This was about getting and _staying_ healthy for the sake of my new family.
 
