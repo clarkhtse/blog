@@ -12,7 +12,7 @@ Since electric and gas are measured in different units and capacities, I needed 
 So here's the math. (All numbers are rounded up or down for readability).
 
 ## Gas Car
-* [In 2012 cars averaged 24 MPG](http://www.greencarreports.com/news/1081502_gas-mileage-keeps-rising-record-23-8-mpg-average-in-2012).
+* In 2012 [cars averaged 24 MPG](http://www.greencarreports.com/news/1081502_gas-mileage-keeps-rising-record-23-8-mpg-average-in-2012).
 * In February 2013 the [average price for gas in Chicago was $3.93](http://www.bls.gov/ro5/aepchi.htm). Could be worse -- highs were around $4.28 in 2012.
 * $3.93 per gallon of gas &divide; 24 miles per gallon = $.16 per mile.
 * That's $2.88 a day to drive 18 miles.
