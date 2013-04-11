@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Nissan Leaf Is 8x Cheaper To Drive To Work Than A Gas Car
+title: Commuting In Our Nissan Leaf Is 8x Cheaper Than A Gas Car
 ---
 
 You read that right. Let's do some math to prove it.
